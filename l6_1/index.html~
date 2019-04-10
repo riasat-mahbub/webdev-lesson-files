@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<title> index </title>
+	<link rel = "stylesheet" type = "text/css" href="style.css">
+    </head>
+    
+    <body>
+	<header>
+	    <h1>Welcome to the index</h1>
+	    <nav>
+		<ul>
+		    <li><a href = "index.html"> Home </a></li>
+		    <li><a href = "login.html"> Login </a></li>
+		    <li><a href = "about.html"> About </a></li>
+		</ul>
+	    </nav>
+	</header>
+	<section>
+	    All Hail the Church of Biribiri
+	</section>
+    </body>
+</html>
+
+	    

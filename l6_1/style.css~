@@ -1,0 +1,29 @@
+body{
+    background-color: #000000;
+    background-image: url(https://png2.kisspng.com/sh/852c6a3163d36e1fabb347755da08472/L0KzQYm3UcMyN5ttj5H0aYP2gLBuTfdzbZZzRelqbHzzccHskr1oepZqhp9rYXPud8P2lf5lNaV3edD8cHH1dbB7TfJia5xsitHAbnSwRbKAUfVkO5dqe6s5YUGxRYm3U8U4P2M2TaMCNEG4RImAWcY6NqFzf3==/kisspng-green-wallpaper-green-background-transparent-background-5a71ec3fec90a1.580357721517415487969.png);
+    background-size: cover;
+}
+
+header{
+    color: #003333;
+    text-align: center;
+}
+
+nav{
+    color: #033333;
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid #003333;
+}
+
+a{
+    color: #e00000;
+    cursor: pointer;
+}
+
+section{
+    color: #00e0e0;
+    text-align: center;
+    font-size: 30px;
+}
+

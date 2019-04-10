@@ -1,0 +1,30 @@
+body{
+    background-image: url(index_wall.png);
+    background-color: rgba(129,128,0,0.3);
+    background-size: cover;
+}
+
+.page_title{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(255,255,0,2);
+}
+
+.footer{
+    text-align: left;
+    color:rgba(150,150,0,2);
+    font-size: 10px;
+}
+
+#pokemon_list a{
+    font-size: 20px;
+    text-align: left;
+    color: rgba(155,100,0,6);
+    border: 0px;
+}
+
+#pokemon_list a:hover{
+    font-size: 25px;
+    color: rgba(255,220,0,1);
+    border: 2px solid rgba(128,128,0,3);
+}

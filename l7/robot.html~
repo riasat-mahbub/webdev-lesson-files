@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title> Robot </title>
+	<link rel = "stylesheet" type = "text/stylesheet" href = "robot.css">
+    </head>
+    <body>
+	<div id = "head">
+	    <img>
+	</div>
+	<div class= "body">
+	    <div id = "chest"> </div>
+	    <div class  = "hand">
+		<div id = "left"></div>
+		<div id = "right"></div>
+	    </div>
+	</div>
+	<div class= "legs">
+	    <div id = "left"></div>
+	    <div id = "right"></div>
+	</div>
+    </body>
+</html>
+
+	    

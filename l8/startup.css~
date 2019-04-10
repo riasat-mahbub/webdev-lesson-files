@@ -1,0 +1,45 @@
+body{
+	background-image: url("index_wall.png");
+	background-size: cover;
+}
+
+.navbar-light{
+	background-color: rgba(0,0,0,1);
+}
+
+#pg-title{
+	display: flex;
+	justify-content: center;
+}
+
+#pg-title > p{
+	font-family: sniglet, cursive;
+	font-size: 400%;
+}
+
+
+.btn-outline-primary:hover{
+	background-color: rgba(0,100,100,1);
+}
+
+.btn-primary-txt{
+	font-face: sniglet;
+	transition: all 1s;
+	color:rgba(0,0,0,1);
+}
+
+.btn-outline-primary{    
+	display: flex;
+	justify-content: center;
+	margin: 3em;
+	padding: 2em;
+	border: 0px solid black;
+	transition: all 1s;	
+}
+
+.btn-outline-primary:hover{
+	transform: scale(1.2);
+}
+
+
+

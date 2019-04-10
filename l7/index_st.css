@@ -1,0 +1,46 @@
+*{
+    color:  rgba(180,180,180,1);
+}
+
+body{
+    background-color: rgba(0,0,0,1);
+}
+
+.sitelist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav p{
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    text-weight: bold;
+}
+
+.sitelist >  img{
+    height: 25em;
+    width: 25em;
+    margin: 2em 0em;
+    transition: all 1s;
+}
+
+.sitelist > img:hover{
+    transform: scale(1.2);
+
+header{
+    text-align: center;
+    text-weight: bold;
+    font-family: "Comic Sans", Arial;
+    font-size: 4em;
+    color: rgba(180,180,180,1);
+}
+
+section{
+    text-align: center;
+    font-family: Georgia, "Times New Roman";
+    font-size: 1em;
+    line-height: 2em;
+}

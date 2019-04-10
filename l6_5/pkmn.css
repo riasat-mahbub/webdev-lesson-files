@@ -1,0 +1,37 @@
+body{
+    background-color: #000000;
+}
+
+
+header{
+    color: rgba(255,200,0,1);
+    text-align: center;
+}
+
+.description p{
+    color: rgba(255,200,0,1);
+    font-size: 30px;
+}
+
+.description p:hover{
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+.description img{
+    float: right;
+    margin: 10px 10px;
+    border: 0px solid rgba(100,50,100,1);
+    padding: 10px 10px;
+}
+
+.description a{
+    font-size:10px;
+    color:rgba(200,185,0,1);
+}
+
+.description a:hover{
+    font-size:12px;
+    border: 1px solid rgba(250,180,0,1);
+    color:rgba(250,200,0,1);
+}

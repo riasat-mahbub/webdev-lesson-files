@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title> Register </title>
+    </head>
+    <body>
+	<p> This is the register page </p>
+	<a href = "file:///home/riasat/Documents/web_basic/l5_1/l5_1.html"> Return to home </a><br>
+	<p> Enter personal details here </p>
+	<form>
+	    First Name: <input type = "text"><br>
+	    Last Name: <input type = "text"><br>
+	    Email Adress: <input type = "email" required><br>
+	    Password: <input type = "password" required min = "5">
+	    Birthday: <input type = "date"><br>
+	    Sex:<br>
+	    Male   <input type = "radio" name = "sex"><br>
+	    Female<input type = "radio" name = "sex"><br>
+	    Education:<br>
+	    SSC <input type = "checkbox"><br>
+	    HSC <input type = "checkbox"><br>
+	    BSc <input type = "checkbox"><br>
+	    Msc <input type = "checkbox"><br>
+	    PHD <input type = "checkbox"><br>
+	    Select Your Starter:<br>
+	    <select>
+		<option value = "Charmander">Charmander</option>
+		<option value = "Bulbasaur">Bulbasaur</option>
+		<option value = "Squirtle">Squirtle</option>
+		<option value = "Pikachu">Pikachu</option>
+	    </select><br>
+	    <input type = "submit" value = "Register!!!"><br>
+	    <input type = "reset" value = "Reset Form">
+	</form>
+    </body>
+</html>

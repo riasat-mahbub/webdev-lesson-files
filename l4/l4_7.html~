@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title> l4-7 </title>
+    </head>
+    <body>
+	<ol>
+	    <li> Cow  </li>
+	    <li> Goat
+		<li>
+		    <ol> Black Bengal </ol>
+		    <ol> Brown Goatee </ol>
+		</li>
+	    </li>
+	    <li> Chicken
+		<ol>
+		    <li> Rhode Island Red </li>
+		    <li> Pakistani Cock </li>
+		</li>
+	    </li>
+	</ol>
+    </body>
+</html>

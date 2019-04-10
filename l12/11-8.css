@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+	font-family: monospace;
+	background: linear-gradient(to right, cyan,blue);
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 20px;
+}
