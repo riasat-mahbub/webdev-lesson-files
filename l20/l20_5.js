@@ -9,6 +9,28 @@ const promise = new Promise((resolve,reject) => {
 
 });
 
+const promise1 = new Promise((resolve) => {
+	setTimeout(resolve, 100, ".1 Seconds have passed")
+})
+
+
+const promise2 = new Promise((resolve) => {
+	setTimeout(resolve, 1000, "1 Seconds have passed")
+})
+
+
+const promise3 = new Promise((resolve) => {
+	setTimeout(resolve, 5000, "5 Seconds have passed")
+})
+
+Promise
+.all([promise1,promise2,promise3])
+.then((result) => {
+	result.forEach( (item) => {
+		console.log(item);
+	})
+})
+
 
 promise
 .then( result => result + "Your'e still gay tho. ^-^")
